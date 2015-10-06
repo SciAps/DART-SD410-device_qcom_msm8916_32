@@ -226,3 +226,8 @@ service dts_configurator /system/bin/dts_configurator
    user system
    group system
    oneshot
+
+service adsprpcd /system/bin/adsprpcd
+   class main
+   user media
+   group media
